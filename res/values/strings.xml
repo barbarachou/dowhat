@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">dowhat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">反馈</string>
+    <string name="setalarm_ok">OK</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="inbox_blocked">已屏蔽</string>
+    <string name="inbox_unblocked"></string>
+    
+    <string name="app_birthday_name">备忘提醒</string>
+    <string name="app_message_name">黑名单</string>
+    <string name="app_wifi_name">WIFI管理</string>
+    <string name="app_social_name">状态同步</string>
+    
+    <string name="wifi_one">亲爱的小伙伴们:</string>
+    <string name="wifi_two">关于列表:\n列表为曾连接过并保存下来的WIFI~!\n
+ps.部分手机需要打开WIFI才能读取列表。\n\n
+关于WIFI切换:\n
+设置后会根据不同的WIFI切换到不同的情景模式。\n\n
+关于情景模式切换:\n
+切换网络后，情景切换会有1~3秒的延迟。\n\
+不影响手动切换情景模式。\n\n
+关于流量:\n
+此过程不会产生任何流量。</string>  
+
+    <string name="not_yet_authorized">尚未授权</string>
+    
+    <string name="sinaweibo">新浪微博</string>
+	<string name="tencentweibo">腾讯微博</string>
+	<string name="qzone">QQ空间</string>
+	<string name="wechat">微信好友</string>
+	<string name="wechatmoments">微信朋友圈</string>
+	<string name="renren">人人网</string>
+	<string name="kaixin">开心网</string>
+	<string name="sohumicroblog">搜狐微博</string>
+	<string name="neteasemicroblog">网易微博</string>
+	<string name="douban">豆瓣</string>
+	<string name="youdao">有道云笔记</string>
+	<string name="evernote">印象笔记</string>
+	<string name="googleplus">Google+</string>
+	
+	<string name="backup">备份到SD卡</string>
+	<string name="recover">从SD卡恢复数据</string>
+
+</resources>

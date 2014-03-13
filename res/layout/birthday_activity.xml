@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp" 
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/birthday_btn_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+		android:layout_margin="5dp"       
+        android:text="2013-9-3" 
+        android:layout_weight="1"
+        android:textColor="@color/bluee"
+        android:background="@drawable/selector_btn_login"/>
+
+    <Button
+        android:id="@+id/birthday_btn_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"  
+        android:layout_weight="1"
+        android:textColor="@color/bluee"
+        android:background="@drawable/selector_btn_login"
+        android:text=" 12:54" />
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/birthday_et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="事   件"/>
+
+        
+    <ListView
+        android:id="@+id/bithdat_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarFadeDuration="2"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000">
+    </ListView>
+
+    
+</LinearLayout>

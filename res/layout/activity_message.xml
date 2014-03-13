@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+    
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp" 
+        android:weightSum="2"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/mes_block_bt"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" 
+        android:textColor="@color/bluee"
+        android:background="@drawable/selector_btn_login"
+        android:text="已拦截短信" />
+
+    <Button
+        android:id="@+id/mes_black_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_btn_login"
+        android:layout_margin="5dp" 
+        android:layout_weight="1"
+        android:textColor="@color/bluee"
+        android:text=" 从收件箱选择" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/mes_black_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="phone" 
+        android:hint="号码"/>
+
+    
+    <ListView
+        android:id="@+id/mes_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000">
+    </ListView>
+
+</LinearLayout>
